@@ -16,7 +16,13 @@ public class UcapanTerimaKasih_05 {
                 "You inspired in me a love for learning and made me feel like I could ask you anything");
     }
 
+    public static void UcapanTambahan(String tambahan) {
+        System.out.println("Additional Greetings: " + tambahan);
+    }
+
     public static void main(String[] args) {
         UcapanTerimakasih();
+        
+        UcapanTambahan("Wishing you all the best in your future endeavors!");
     }
 }
